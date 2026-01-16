@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="21/7 Clean - Professional cleaning services in Chichester. Available 24/7 for domestic and commercial cleaning.">
+    <meta name="keywords" content="cleaning services, Chichester, domestic cleaning, office cleaning">
+    <meta name="author" content="21/7 Clean">
+    <meta property="og:title" content="21/7 Clean - Professional Cleaning Services">
+    <meta property="og:description" content="Professional cleaning services available 24/7 in Chichester">
+    <meta property="og:type" content="website">
+    <title>21/7 Clean - Professional Cleaning Services Chichester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                21/7 <span>CLEAN</span>
+            </div>
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="cta-button">Book Now</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="cta-button">Book Now</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <canvas id="animationCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Tired of cleaning your home?
+            </h1>
+            <p class="hero-subtitle">
+                Let us handle the dirt. You enjoy your life.
+            </p>
+            <p class="hero-description">
+                Professional cleaning services available 24/7 across Chichester
+            </p>
+            <button class="cta-button-large" onclick="smoothScroll('#contact')">
+                Book Your Cleaning Today
+            </button>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Who We Are</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        <strong>21/7 Clean</strong> is Chichester's trusted cleaning service provider. 
+                        With years of experience and a team of dedicated professionals, 
+                        we deliver exceptional cleaning results every single time.
+                    </p>
+                    <p>
+                        Available 24/7, we understand that life is busy. That's why 
+                        we're here to take one thing off your plate—keeping your home 
+                        or office spotless.
+                    </p>
+                    <p>
+                        From residential homes to commercial offices, we handle every cleaning 
+                        challenge with professionalism and care.
+                    </p>
+                </div>
+                <div class="about-features">
+                    <div class="feature fade-in">
+                        <div class="feature-icon">✓</div>
+                        <h3>Eco-Friendly</h3>
+                        <p>Safe products for your family</p>
+                    </div>
+                    <div class="feature fade-in">
+                        <div class="feature-icon">✓</div>
+                        <h3>Fully Insured</h3>
+                        <p>Complete peace of mind</p>
+                    </div>
+                    <div class="feature fade-in">
+                        <div class="feature-icon">✓</div>
+                        <h3>Local Experts</h3>
+                        <p>Serving Chichester & surroundings</p>
+                    </div>
+                    <div class="feature fade-in">
+                        <div class="feature-icon">✓</div>
+                        <h3>Same-Day Service</h3>
+                        <p>Available when you need us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Domestic Cleaning</h3>
+                    <p>Professional cleaning for your home. From bedrooms to kitchens, we handle it all with care and attention to detail.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Office Cleaning</h3>
+                    <p>Keep your workspace professional and hygienic. We work around your schedule to maintain a pristine office environment.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧹</div>
+                    <h3>Deep Cleaning</h3>
+                    <p>Thorough cleaning that gets into every corner. Perfect for spring cleaning or when you need a complete refresh.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪟</div>
+                    <h3>Window Cleaning</h3>
+                    <p>Crystal-clear windows that let the light shine in. We handle interior and exterior windows safely and efficiently.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛋️</div>
+                    <h3>Carpet & Upholstery</h3>
+                    <p>Restore your carpets and furniture to like-new condition. Professional cleaning that extends the life of your fabrics.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3>End of Tenancy</h3>
+                    <p>Move out with confidence. We ensure your property is spotless for the next tenant or your deposit return.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "21/7 Clean transformed our office. The team is professional, 
+                        efficient, and always on time. Highly recommended!"
+                    </p>
+                    <p class="testimonial-author">— Sarah M., Chichester</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Best cleaning service in town. They pay attention to every detail 
+                        and use eco-friendly products. Worth every penny."
+                    </p>
+                    <p class="testimonial-author">— James T., Chichester</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Finally found a reliable cleaning service! They're flexible with 
+                        scheduling and the results are outstanding."
+                    </p>
+                    <p class="testimonial-author">— Emma R., Chichester</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Available 24/7 is a game-changer. Booked them on a Sunday and 
+                        they came through. Exceptional service!"
+                    </p>
+                    <p class="testimonial-author">— Michael P., Chichester</p>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <strong>📞 Phone:</strong>
+                        <a href="tel:+441243123456">+44 (0) 1243 123 456</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📧 Email:</strong>
+                        <a href="mailto:info@217clean.co.uk">info@217clean.co.uk</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📍 Location:</strong>
+                        <p>Chichester, West Sussex, UK</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>🕐 Hours:</strong>
+                        <p>Available 24/7</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input type="email" placeholder="Your Email" name="email" required>
+                    <input type="tel" placeholder="Your Phone" name="phone" required>
+                    <select name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="domestic">Domestic Cleaning</option>
+                        <option value="office">Office Cleaning</option>
+                        <option value="deep">Deep Cleaning</option>
+                        <option value="window">Window Cleaning</option>
+                        <option value="carpet">Carpet & Upholstery</option>
+                        <option value="tenancy">End of Tenancy</option>
+                    </select>
+                    <textarea placeholder="Tell us about your cleaning needs..." name="message" rows="5" required></textarea>
+                    <button type="submit" class="cta-button-large">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>21/7 Clean</h4>
+                    <p>Professional cleaning services available 24/7</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📞 +44 (0) 1243 123 456</p>
+                    <p>📧 info@217clean.co.uk</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 21/7 Clean. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
